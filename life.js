@@ -13,7 +13,10 @@ if(operator == "+"){
     result = a / b;
 } else if(operator == "-"){
     result = a - b;
-}
+}else{
+    alert("please put math symbol");
+    alert("solution will be undefined");
+    alert("cancel and refresh page");
 // document.write(a + operator + b + '=' + result)
 // the above in comment would enable the result to be displayed as text in the webpage but instead i want as a prompt
 alert(a + operator + b + '=' + result);
