@@ -3,7 +3,7 @@ var a = +prompt("Enter first number");
 var b = +prompt("Enter second number");
 const operator = prompt("enter math symbol (+,*,/,-)");
 
-// alert(a + b);
+
 let result;
 if(operator == "+"){
     result = a + b;
